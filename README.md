@@ -9,7 +9,7 @@
 
 **DevOps AI Copilot** - An AI-powered DevOps assistant that doesn't just generate infrastructure code—it detects problems, automatically generates fixes, and provides step-by-step remediation plans. Works completely offline with no paid APIs, no credentials required.
 
-> **Hackathon Project 2024**: Built with GitHub Copilot CLI to accelerate development from concept to production-ready MVP
+> **Hackathon Project 2026**: Built with GitHub Copilot CLI to accelerate development from concept to production-ready MVP
 
 ---
 
