@@ -1,0 +1,2 @@
+[console_scripts]
+devops-ai = devops_ai.main:app
