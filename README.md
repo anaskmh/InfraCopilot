@@ -80,25 +80,24 @@ This project was built **entirely with GitHub Copilot CLI**, showcasing how AI c
 
 ---
 
-## 🎬 5-Minute Demo
 
 Get up and running with DevOps AI Copilot in 5 minutes:
 
-### Step 1: Install (1 minute)
+### Step 1: Install
 ```bash
 git clone https://github.com/yourusername/devops-ai-copilot.git
 cd devops-ai-copilot
 pip install -e "."
 ```
 
-### Step 2: Initialize Project (30 seconds)
+### Step 2: Initialize Project
 ```bash
 devops-ai init my-startup --provider aws
 ```
 
 **Output:** ✅ Project initialized with AWS provider
 
-### Step 3: Generate Infrastructure (1 minute)
+### Step 3: Generate Infrastructure 
 ```bash
 devops-ai generate terraform --desc "create eks cluster with monitoring and autoscaling"
 ```
@@ -114,7 +113,7 @@ devops-ai generate terraform --desc "create eks cluster with monitoring and auto
   📄 Output: outputs/main.tf (12,000 lines)
 ```
 
-### Step 4: Generate Kubernetes Manifests (1 minute)
+### Step 4: Generate Kubernetes Manifests 
 ```bash
 devops-ai generate k8s --desc "deploy app with prometheus grafana logging rbac security"
 ```
@@ -131,7 +130,7 @@ devops-ai generate k8s --desc "deploy app with prometheus grafana logging rbac s
   📄 Output: outputs/ (28 YAML files)
 ```
 
-### Step 5: AI Self-Healing - Detect Issues (1 minute)
+### Step 5: AI Self-Healing - Detect Issues 
 ```bash
 devops-ai heal --scan-type k8s --file outputs/deployment.yaml --auto-fix
 ```
@@ -153,11 +152,6 @@ devops-ai heal --scan-type k8s --file outputs/deployment.yaml --auto-fix
 
 💾 Fixed configuration saved to: deployment-fixed.yaml
 ```
-
-**Total Time: ~5 minutes** | Generated: **2 production-ready stacks** ⚡
-
-
-
 ### Quality Attributes
 - ✅ **Production-Ready** - Clean architecture with comprehensive error handling
 - 📦 **Modular Design** - Extensible and maintainable codebase
